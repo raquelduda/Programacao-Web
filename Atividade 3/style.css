@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 30px;
+}
+
+.cabecalho {
+    margin: 0;
+    border: 3px solid #3730a3;
+    padding: 30px;
+    background-color: #293172;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho h1 {
+    border: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+.cabecalho p {
+    border: 0;
+    padding: 0;
+}
+
+.conteudo {
+    margin-top: 25px;
+    border: 2px solid #c7d2fe;
+    padding: 25px;
+    background-color: aliceblue;
+}
+
+.sobre {
+    margin: 0;
+    border: 2px solid #818cf8;
+    padding: 20px;
+    background-color: #c4d7ff;
+}
+
+.sobre h2,
+.sobre p {
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaque {
+    color: red;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.habilidades {
+    margin-top: 25px;
+    border: 2px solid #a78bfa;
+    padding: 20px;
+    background-color: #c4d7ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.habilidades span {
+    margin: 5px;
+    border: 2px solid #5b21b6;
+    padding: 8px;
+    background-color: #293272c7;
+    color: white;
+}
+
+.rodape {
+    margin: 25px;
+    border: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(61, 151, 179, 0.322);
+}
