@@ -46,26 +46,36 @@ body {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 16px;
 }
 
 .categorias {
     background-color: #ffd3f2;
-    padding: 50px;
+    padding: 40px;
     text-align: center;
     color: #525050;
-    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.categorias h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 /* INLINE-BLOCK PARA A CATEGORIA SE MANTER NA MESMA LINHA */
 .categoria {
     display: inline-block;
-    margin: 20px;
-    padding: 20px 30px;
+    margin: 10px;
+    padding: 15px 25px;
     background-color: #ffb4e9;
-    font-size: 18px;
+    font-size: 17px;
     border-radius: 10px;
+    color: #525050;
 
+}
+
+.categoria:hover {
+    background-color: #faa4e0;
 }
 
 .produtos {
@@ -75,21 +85,46 @@ body {
     margin: 40px;
 }
 
+.produtos h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #525050;
+    margin: 10px;
+}
+
 /* TAMBEM COM INLINE BLOCK PARA MANTER NA MESMA LINHA */
 .produto {
     display: inline-block;
-    width: 150px;
-    margin: 20px;
-    padding: 20px;
+    width: 200px;
+    margin: 15px;
+    padding: 25px 20px;
     background-color: #a1dbfd;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 15px;
     color: white;
 }
 
+.produto h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
 .produto p {
-    color: rgb(29, 207, 29);
-    font-weight: 600;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #71bbe06b;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+
+.itens {
+    width: 120px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .form {
