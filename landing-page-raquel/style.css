@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo .image {
+    width: 250px;
+    height: auto;
+}
+
+.header {
+    text-align: center;
+    background-color: #a1dbfd;
+
+}
+
+.hero {
+    text-align: center;
+    min-height: 63vh;
+    padding: 80px;
+
+}
+
+.hero h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #faa4e0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+}
+
+.hero p {
+    font-size: 21px;
+    color: #a1dbfd;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+}
+
+#botao {
+    background-color: #faa4e0;
+    color: white;
+    padding: 24px 80px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.categorias {
+    background-color: #ffd3f2;
+    padding: 50px;
+    text-align: center;
+    color: #525050;
+    border-radius: 5px;
+}
+
+/* INLINE-BLOCK PARA A CATEGORIA SE MANTER NA MESMA LINHA */
+.categoria {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px 30px;
+    background-color: #ffb4e9;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+
+.produtos {
+    padding: 20px;
+    text-align: center;
+    color: #525050;
+    margin: 40px;
+}
+
+/* TAMBEM COM INLINE BLOCK PARA MANTER NA MESMA LINHA */
+.produto {
+    display: inline-block;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #a1dbfd;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.produto p {
+    color: rgb(29, 207, 29);
+    font-weight: 600;
+}
+
+.form {
+    padding: 5px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.form p {
+    color: white;
+    font-weight: bold;
+    background-color: #a1dbfd;
+    padding: 25px;
+    font-size: 18px;
+    margin: 0;
+
+}
+
+#cadastro {
+    background-color: #ffeff8;
+    padding: 25px;
+}
+
+#cadastro label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #525050;
+}
+
+#cadastro input {
+    width: 290px;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #f382d1;
+    border-radius: 5px;
+}
+
+#cadastro button {
+    margin: 10px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #faa4e0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
