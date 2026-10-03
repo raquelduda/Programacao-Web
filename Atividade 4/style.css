@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: rgb(201, 223, 255);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border-style: none;
+}
+
+button {
+    margin-top: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-style: none;
+    background-color: rgb(87, 174, 245);
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.contato {
+    background-color: rgb(201, 223, 255);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
